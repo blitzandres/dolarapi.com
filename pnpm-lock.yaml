@@ -70,8 +70,8 @@ catalogs:
       specifier: ^9.39.5
       version: 9.39.5
     hono:
-      specifier: ^4.12.32
-      version: 4.12.32
+      specifier: ^4.13.16
+      version: 4.13.18
     iconv-lite:
       specifier: ^0.7.3
       version: 0.7.3
@@ -160,7 +160,7 @@ importers:
         version: 5.3.0
       '@hono/vite-dev-server':
         specifier: 'catalog:'
-        version: 0.23.0(hono@4.12.32)(miniflare@3.20240610.0)
+        version: 0.23.0(hono@4.13.18)(miniflare@3.20240610.0)
       '@iconify-json/mdi':
         specifier: 'catalog:'
         version: 1.2.3
@@ -205,7 +205,7 @@ importers:
         version: 9.39.5(jiti@2.7.0)
       hono:
         specifier: 'catalog:'
-        version: 4.12.32
+        version: 4.13.18
       iconv-lite:
         specifier: 'catalog:'
         version: 0.7.3
@@ -561,15 +561,15 @@ packages:
 
   '@esbuild-kit/cjs-loader@2.4.4':
     resolution: {integrity: sha512-NfsJX4PdzhwSkfJukczyUiZGc7zNNWZcEAyqeISpDnn0PTfzMJR1aR8xAIPskBejIxBJbIgCCMzbaYa9SXepIg==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild-kit/core-utils@3.3.2':
     resolution: {integrity: sha512-sPRAnw9CdSsRmEtnsl2WXWdyquogVpB3yZ3dgwJfe8zrOzTsV7cJvmwrKVa+0ma5BoiGJ+BoqkMvawbayKUsqQ==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild-kit/esm-loader@2.6.5':
     resolution: {integrity: sha512-FxEMIkJKnodyA1OaCUoEvbYRkoZlLZ4d/eXFu9Fh8CbBBgP5EmZxrfTRyN0qpXZ4vOvqnE5YdRdcrmUUXuU+dA==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -2585,6 +2585,7 @@ packages:
 
   axios-retry@3.9.1:
     resolution: {integrity: sha512-8PJDLJv7qTTMMwdnbMvrLYuvB47M81wRtxQmEdV5w4rgbTXTt+vtPkXwajOfOdSyv/wZICJOC+/UhXH4aQ/R+w==}
+    deprecated: axios-retry is no longer maintained. See https://github.com/softonic/axios-retry for alternatives.
 
   axios@1.19.0:
     resolution: {integrity: sha512-ht/iuYZXEjFxLH/Hkezgd7m6JKlHHXEUSneaDz8uZe1Gj5QZtCnpyDsckvAiEnT89OEbCLmnte4R4sn7P0EKFw==}
@@ -3422,6 +3423,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -3758,8 +3760,8 @@ packages:
     resolution: {integrity: sha512-Ox1pJVrDCyGHMG9CFg1tmrRUMRPRsAWYc/PinY0XzJU4K7y7vjNoLKIQ7BR5UJMCxNN8EM1MNDmHWA/B3aZUuw==}
     engines: {node: '>=6'}
 
-  hono@4.12.32:
-    resolution: {integrity: sha512-XcuyW9qE2kJn07PkecMOBd5Vq/hMy7mmGw+idz1yblbg9N17ijJODrvPkn7/dwL3Kulj8LcRJ69DLOWf91dRUg==}
+  hono@4.13.18:
+    resolution: {integrity: sha512-H9q/E1XizaWstJxUW881dmLxEj+t/TrGGnyxINkm4+sK0qUwsMtFdo2BWI9Vs3cIS19MU6b6iCijoUoEf4f3DA==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -5048,6 +5050,7 @@ packages:
 
   stream-to-promise@2.2.0:
     resolution: {integrity: sha512-HAGUASw8NT0k8JvIVutB2Y/9iBk7gpgEyAudXwNJmZERdMITGdajOa4VJfD/kNiA3TppQpTP4J+CtcHwdzKBAw==}
+    deprecated: Deprecated. Use node:stream/promises and node:stream/consumers instead.
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -6482,14 +6485,14 @@ snapshots:
 
   '@fontsource/inter@5.3.0': {}
 
-  '@hono/node-server@1.19.6(hono@4.12.32)':
+  '@hono/node-server@1.19.6(hono@4.13.18)':
     dependencies:
-      hono: 4.12.32
+      hono: 4.13.18
 
-  '@hono/vite-dev-server@0.23.0(hono@4.12.32)(miniflare@3.20240610.0)':
+  '@hono/vite-dev-server@0.23.0(hono@4.13.18)(miniflare@3.20240610.0)':
     dependencies:
-      '@hono/node-server': 1.19.6(hono@4.12.32)
-      hono: 4.12.32
+      '@hono/node-server': 1.19.6(hono@4.13.18)
+      hono: 4.13.18
       minimatch: 9.0.4
     optionalDependencies:
       miniflare: 3.20240610.0
@@ -9117,7 +9120,7 @@ snapshots:
 
   hex-rgb@4.3.0: {}
 
-  hono@4.12.32: {}
+  hono@4.13.18: {}
 
   hookable@5.5.3: {}
 

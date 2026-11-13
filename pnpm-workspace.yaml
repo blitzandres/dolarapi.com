@@ -22,7 +22,7 @@ catalog:
   dotenv: ^17.4.2
   echarts: ^6.1.0
   eslint: ^9.39.5
-  hono: ^4.12.32
+  hono: ^4.13.16
   iconv-lite: ^0.7.3
   parse-decimal-number: ^1.0.0
   pino: ^10.3.1
